@@ -13,7 +13,7 @@ cd backend
 
 npm i
 
-nodemon server.js
+node server.js
 
 //second terminal \*frontend
 

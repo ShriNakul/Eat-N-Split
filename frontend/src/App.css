@@ -1,0 +1,124 @@
+/* App Container */
+.app {
+  display: flex;
+  gap: 50px;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 350px;
+}
+
+.app h1 {
+  font-family: "Rye", cursive;
+}
+
+/* Friend List */
+.friend-list {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-item {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  position: relative;
+}
+
+.friend-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.friend-balance {
+  margin-top: 5px;
+}
+
+.friend-balance.positive {
+  color: green;
+}
+.friend-balance.negative {
+  color: red;
+}
+.friend-balance.even {
+  color: #333;
+}
+
+/* Buttons */
+.btn-delete {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.btn-select {
+  margin-top: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.btn-orange {
+  padding: 10px;
+  cursor: pointer;
+  background: #ff922b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Forms */
+.form-add-friend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.form-split-bill {
+  background: #fff9f0;
+  padding: 30px;
+  border: 1px solid #ffe8cc;
+  border-radius: 12px;
+  height: fit-content;
+  min-width: 300px;
+}
+
+.form-split-bill form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 8px;
+}

@@ -7,7 +7,7 @@ open two terminals
 //first terminal \*backend
 
 
-cd 'c:/Shri Development/Eat-N-Split'
+cd 'c://Eat-N-Split'
 
 cd backend
 
@@ -18,7 +18,7 @@ node server.js
 //second terminal \*frontend
 
 
-cd 'c:/Shri Development/Eat-N-Split'
+cd 'c://Eat-N-Split'
 
 cd frontend
 
